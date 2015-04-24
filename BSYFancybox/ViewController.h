@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class BSYFancyboxView;
 @interface ViewController : UIViewController
 
-
+@property(nonatomic,strong) UIButton *button;
+@property(nonatomic,assign) BOOL YESORNO;
+@property(nonatomic,strong) BSYFancyboxView*FancyboxView;
 @end
 
